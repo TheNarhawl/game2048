@@ -1,0 +1,9 @@
+﻿<Window x:Class="Game2048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="2048" Height="532.327" Width="500" KeyDown="Window_KeyDown">
+    <Grid>
+        <Canvas x:Name="BoardCanvas" Background="LightGray" Width="400" Height="400" Margin="50"/>
+        <Button x:Name="restart_button" Content="↻" HorizontalAlignment="Left" Margin="448,10,0,0" VerticalAlignment="Top" Width="34" FontSize="24" Height="36" RenderTransformOrigin="0.5,0.5" Click="restart_button_Click"/>
+    </Grid>
+</Window>
